@@ -1,0 +1,27 @@
+table, td, th{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+table{
+    margin: 0;
+    position:absolute;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.cell{
+    text-align: center;
+    height: 35px;
+}
+
+th{
+    background-color: #d0d0d0;
+    height: 35px;
+}
+
+.selected{
+    background-color: #e0e0ff;
+}
