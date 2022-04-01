@@ -4,12 +4,10 @@ table, td, th{
 }
 table{
     margin: 0;
-    position:absolute;
     width: 60%;
     top: 50%;
     left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    
 }
 
 .cell{
@@ -25,4 +23,5 @@ th{
 .selected{
     background-color: #e0e0ff;
 }
+
 
